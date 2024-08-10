@@ -1,14 +1,13 @@
 import react from 'react'
-import Calender from './class_component';
+import {Header,Content,Footer,} from './func-component';
 
 
 
 function App(){
   return(
-    <>
-    <p><center></center><Calender/></p>
+    [<Header/>,<Content/>,<Footer/>]
 
-    </>
+  
   )
 }
 export default App;

@@ -1,14 +1,7 @@
 import react from 'react'
-import Calender from './class_component';
+import RefsFunc from './ref-func';
 
 
-
-function App(){
-  return(
-    <>
-    <p><center></center><Calender/></p>
-
-    </>
-  )
+export default function App(){
+  return <RefsFunc/>
 }
-export default App;
